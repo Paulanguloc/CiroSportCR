@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CiroSport – Ropa Deportiva & Suplementos | Escazú</title>
+
+<!-- Open Graph / WhatsApp preview -->
+<meta property="og:title" content="CiroSport – Ropa Deportiva & Suplementos">
+<meta property="og:description" content="Camisetas, conjuntos deportivos, tenis y suplementos. Precio directo, calidad real. Escazú, Costa Rica.">
+<meta property="og:image" content="https://res.cloudinary.com/dlz6uc574/image/upload/v1771649387/Photoroom-20251123_215209030_blbzzk.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://paulanguloc.github.io/CiroSport/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://res.cloudinary.com/dlz6uc574/image/upload/v1771649387/Photoroom-20251123_215209030_blbzzk.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Barlow+Condensed:wght@400;600;700;900&family=Barlow:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+:root{--black:#090909;--black2:#111;--black3:#181818;--green:#00ff88;--green2:#00cc6a;--white:#f4f4ef;--gray:#777;--border:rgba(0,255,136,.18)}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--black);color:var(--white);font-family:'Barlow',sans-serif;overflow-x:hidden}
+body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.05'/%3E%3C/svg%3E");pointer-events:none;z-index:9998;opacity:.35}
+::-webkit-scrollbar{width:3px}::-webkit-scrollbar-track{background:var(--black)}::-webkit-scrollbar-thumb{background:var(--green);border-radius:2px}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:center;justify-content:space-between;padding:0 20px;height:58px;background:rgba(9,9,9,.93);backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}
+.nav-logo{height:36px;width:auto;display:block}
+.nav-links{display:flex;gap:24px;list-style:none}
+.nav-links a{color:var(--gray);text-decoration:none;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:12px;letter-spacing:1.5px;text-transform:uppercase;transition:color .2s}
+.nav-links a:hover{color:var(--green)}
+.nav-cta{background:var(--green)!important;color:var(--black)!important;padding:7px 14px}
+@media(max-width:768px){.nav-links{display:none}}
+
+/* HERO */
+.hero{min-height:100vh;padding:70px 20px 48px;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:32px;position:relative;overflow:hidden}
+.hero::after{content:'';position:absolute;top:-120px;right:-120px;width:550px;height:550px;background:radial-gradient(circle,rgba(0,255,136,.07) 0%,transparent 70%);pointer-events:none}
+@media(max-width:768px){.hero{grid-template-columns:1fr;text-align:center;padding-top:78px}}
+.hero-tag{display:inline-flex;align-items:center;gap:8px;background:rgba(0,255,136,.07);border:1px solid var(--border);padding:5px 13px;font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--green);margin-bottom:20px}
+.hero-tag::before{content:'';width:6px;height:6px;background:var(--green);border-radius:50%;animation:pulse 1.6s infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.3;transform:scale(.7)}}
+.hero-title{font-family:'Black Han Sans',sans-serif;font-size:clamp(46px,7vw,86px);line-height:.92;letter-spacing:-2px;text-transform:uppercase;margin-bottom:20px}
+.lg{display:block}.lg-g{display:block;color:var(--green)}.lg-o{display:block;color:transparent;-webkit-text-stroke:2px var(--white)}
+.hero-sub{font-size:15px;color:var(--gray);line-height:1.65;max-width:380px;margin-bottom:28px}
+@media(max-width:768px){.hero-sub{margin:0 auto 28px}}
+.hero-btns{display:flex;gap:10px;flex-wrap:wrap}
+@media(max-width:768px){.hero-btns{justify-content:center}}
+.btn-g{background:var(--green);color:var(--black);padding:13px 26px;font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:14px;letter-spacing:2px;text-transform:uppercase;text-decoration:none;border:none;cursor:pointer;transition:all .2s;display:inline-flex;align-items:center;gap:7px}
+.btn-g:hover{background:var(--green2);transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,255,136,.28)}
+.btn-o{background:transparent;color:var(--white);padding:13px 26px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:14px;letter-spacing:2px;text-transform:uppercase;text-decoration:none;border:1px solid rgba(255,255,255,.18);cursor:pointer;transition:all .2s}
+.btn-o:hover{border-color:var(--green);color:var(--green)}
+.hero-stats{display:flex;gap:28px;margin-top:32px;padding-top:28px;border-top:1px solid rgba(255,255,255,.07)}
+@media(max-width:768px){.hero-stats{justify-content:center}}
+.stn{font-family:'Black Han Sans',sans-serif;font-size:30px;color:var(--green);display:block}
+.stl{font-family:'Barlow Condensed',sans-serif;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gray)}
+.hero-visual{position:relative;display:flex;justify-content:center}
+@media(max-width:768px){.hero-visual{order:-1}}
+.hero-frame{position:relative;width:100%;max-width:420px;aspect-ratio:3/4;overflow:hidden;border:1px solid var(--border)}
+.hero-frame img{width:100%;height:100%;object-fit:cover;filter:brightness(.9) saturate(.85);transition:transform .6s}
+.hero-frame:hover img{transform:scale(1.04)}
+.hero-badge{position:absolute;bottom:18px;left:-12px;background:var(--green);color:var(--black);padding:10px 18px;font-family:'Black Han Sans',sans-serif;font-size:12px;letter-spacing:1px;z-index:2}
+.hero-corner{position:absolute;top:14px;right:14px;width:44px;height:44px;border-top:2px solid var(--green);border-right:2px solid var(--green)}
+
+/* MARQUEE */
+.mq{background:var(--green);overflow:hidden;padding:11px 0}
+.mtr{display:flex;animation:mqa 22s linear infinite;white-space:nowrap}
+.mi{font-family:'Black Han Sans',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;color:var(--black);padding:0 28px;flex-shrink:0}
+@keyframes mqa{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* SECTION COMMONS */
+section{padding:72px 20px}
+.slbl{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--green);margin-bottom:10px;display:flex;align-items:center;gap:10px}
+.slbl::before{content:'';width:22px;height:2px;background:var(--green)}
+.stit{font-family:'Black Han Sans',sans-serif;font-size:clamp(32px,5vw,56px);line-height:1;text-transform:uppercase;letter-spacing:-1px;margin-bottom:8px}
+.ssub{color:var(--gray);font-size:14px;max-width:480px;line-height:1.65;margin-bottom:40px}
+
+/* CATEGORÍAS */
+.cats{display:grid;grid-template-columns:repeat(auto-fill,minmax(175px,1fr));gap:2px}
+.cat{position:relative;aspect-ratio:3/4;overflow:hidden;cursor:pointer;background:var(--black3)}
+.cat img{width:100%;height:100%;object-fit:cover;transition:transform .5s,filter .4s;filter:grayscale(20%) brightness(.75)}
+.cat:hover img{transform:scale(1.07);filter:grayscale(0%) brightness(.88)}
+.cat-ov{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.88) 0%,transparent 55%)}
+.cat-info{position:absolute;bottom:0;left:0;right:0;padding:18px 14px}
+.cat-name{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:16px;letter-spacing:.8px;text-transform:uppercase}
+.cat-sub{font-size:11px;color:var(--green);margin-top:2px}
+.cat-arr{position:absolute;top:12px;right:12px;width:28px;height:28px;border:1px solid rgba(255,255,255,.2);display:flex;align-items:center;justify-content:center;opacity:0;transform:translateY(-4px);transition:all .3s}
+.cat:hover .cat-arr{opacity:1;transform:translateY(0);border-color:var(--green);background:var(--green)}
+.cat:hover .cat-arr svg path{stroke:var(--black)}
+
+/* PRODUCTS */
+.prod-sec{background:var(--black2)}
+.ptabs{display:flex;gap:3px;margin-bottom:36px;flex-wrap:wrap}
+.ptab{padding:7px 16px;background:transparent;border:1px solid rgba(255,255,255,.1);color:var(--gray);font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:12px;letter-spacing:1.5px;text-transform:uppercase;cursor:pointer;transition:all .2s}
+.ptab.active,.ptab:hover{background:var(--green);border-color:var(--green);color:var(--black)}
+.pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:2px}
+.pc{background:#141414;border:1px solid rgba(255,255,255,.05);overflow:hidden;cursor:pointer;transition:border-color .2s}
+.pc:hover{border-color:var(--border)}
+.pimg{aspect-ratio:1;overflow:hidden;background:var(--black3);position:relative}
+.pimg img{width:100%;height:100%;object-fit:cover;transition:transform .4s;filter:brightness(.88)}
+.pc:hover .pimg img{transform:scale(1.05)}
+.pbdg{position:absolute;top:10px;left:10px;background:var(--green);color:var(--black);font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:10px;letter-spacing:2px;text-transform:uppercase;padding:3px 7px}
+.pinf{padding:13px}
+.pnm{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:15px;margin-bottom:3px}
+.pds{font-size:11px;color:var(--gray);line-height:1.4;margin-bottom:10px}
+.pbot{display:flex;align-items:center;justify-content:space-between}
+.ppr{font-family:'Black Han Sans',sans-serif;font-size:18px;color:var(--green)}
+.ppr small{font-family:'Barlow Condensed',sans-serif;font-size:10px;color:var(--gray);font-weight:400;display:block;margin-top:-3px}
+.bwa{background:var(--green);border:none;color:var(--black);width:34px;height:34px;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all .2s;text-decoration:none;flex-shrink:0}
+.bwa:hover{background:var(--green2);transform:scale(1.1)}
+
+/* GALLERY */
+.gal-sec{background:var(--black3)}
+.cw{overflow:hidden}
+.ctr{display:flex;gap:3px;transition:transform .4s ease}
+.csl{min-width:calc(33.333% - 2px);aspect-ratio:4/3;overflow:hidden;background:var(--black2);flex-shrink:0}
+.csl img{width:100%;height:100%;object-fit:cover;filter:brightness(.8);transition:filter .3s}
+.csl:hover img{filter:brightness(1)}
+.cctrl{display:flex;justify-content:center;gap:6px;margin-top:16px}
+.cbtn{background:transparent;border:1px solid rgba(255,255,255,.16);color:var(--white);width:40px;height:40px;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all .2s}
+.cbtn:hover{background:var(--green);border-color:var(--green);color:var(--black)}
+@media(max-width:768px){.csl{min-width:calc(100% - 3px)}}
+
+/* SUPPS */
+.sup-sec{background:var(--black);position:relative;overflow:hidden}
+.sup-sec::before{content:'SUPLEMENTOS';position:absolute;font-family:'Black Han Sans',sans-serif;font-size:clamp(55px,12vw,155px);color:rgba(0,255,136,.03);top:50%;left:50%;transform:translate(-50%,-50%);white-space:nowrap;pointer-events:none}
+.sup-lay{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:center;position:relative;z-index:1}
+@media(max-width:768px){.sup-lay{grid-template-columns:1fr;gap:28px}}
+.sg{display:grid;grid-template-columns:1fr 1fr;gap:3px}
+.sb{aspect-ratio:1;overflow:hidden;background:var(--black3);border:1px solid var(--border)}
+.sb:first-child{grid-column:span 2;aspect-ratio:2/1}
+.sb img{width:100%;height:100%;object-fit:cover;filter:saturate(.7);transition:all .4s}
+.sb:hover img{filter:saturate(1.2);transform:scale(1.04)}
+.fl{list-style:none;margin:24px 0;display:flex;flex-direction:column;gap:12px}
+.fl li{display:flex;gap:12px;align-items:flex-start;font-size:14px;color:rgba(244,244,239,.8);line-height:1.5}
+.fl li::before{content:'';width:17px;height:17px;border:2px solid var(--green);background:rgba(0,255,136,.08);flex-shrink:0;position:relative;top:2px}
+
+/* CTA */
+.cta{background:var(--green);padding:72px 20px;text-align:center;position:relative;overflow:hidden}
+.cta::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(45deg,transparent,transparent 18px,rgba(0,0,0,.03) 18px,rgba(0,0,0,.03) 19px)}
+.cta *{position:relative;z-index:1}
+.cta .slbl{color:rgba(0,0,0,.45);justify-content:center}.cta .slbl::before{background:rgba(0,0,0,.3)}
+.cta .stit{color:var(--black)}
+.cta p{color:rgba(0,0,0,.6);font-size:15px;max-width:460px;margin:10px auto 32px;line-height:1.65}
+.cta-btns{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}
+.btn-dk{background:var(--black);color:var(--white);padding:13px 24px;font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:14px;letter-spacing:2px;text-transform:uppercase;text-decoration:none;transition:all .2s;display:inline-flex;align-items:center;gap:8px}
+.btn-dk:hover{background:var(--black3);transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.4)}
+
+/* SOCIAL BAR */
+.sbar{background:var(--black2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:18px 20px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px}
+.slinks{display:flex;gap:10px}
+.slnk{width:38px;height:38px;border:1px solid rgba(255,255,255,.1);display:flex;align-items:center;justify-content:center;text-decoration:none;color:var(--gray);transition:all .2s}
+.slnk:hover{border-color:var(--green);color:var(--green)}
+.sinf{text-align:right;font-size:13px;color:var(--gray);line-height:1.6}
+.sinf strong{color:var(--green)}
+@media(max-width:768px){.sbar{flex-direction:column;align-items:flex-start}.sinf{text-align:left}}
+
+/* FOOTER */
+footer{padding:34px 20px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px}
+.flogo{height:32px;width:auto;display:block}
+.ftxt{font-size:11px;color:rgba(119,119,119,.5);text-align:center}
+.flinks{display:flex;gap:18px}
+.flinks a{font-family:'Barlow Condensed',sans-serif;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:var(--gray);text-decoration:none;transition:color .2s}
+.flinks a:hover{color:var(--green)}
+@media(max-width:768px){footer{flex-direction:column;align-items:center;text-align:center}}
+
+/* FLOATING WA */
+.waf{position:fixed;bottom:22px;right:22px;z-index:199;background:#25D366;width:54px;height:54px;border-radius:50%;display:flex;align-items:center;justify-content:center;text-decoration:none;box-shadow:0 4px 20px rgba(37,211,102,.42);animation:fl 3s ease-in-out infinite}
+.waf:hover{transform:scale(1.12)!important;animation:none}
+@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+
+/* ANIM */
+.fu{opacity:0;transform:translateY(22px);transition:opacity .6s,transform .6s}
+.fu.vis{opacity:1;transform:translateY(0)}
+
+/* WA icon reuse */
+.wi{fill:currentColor}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#"><img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771649387/Photoroom-20251123_215209030_blbzzk.png" alt="CiroSport" class="nav-logo"></a>
+  <ul class="nav-links">
+    <li><a href="#categorias">Categorías</a></li>
+    <li><a href="#productos">Productos</a></li>
+    <li><a href="#suplementos">Suplementos</a></li>
+    <li><a href="#galeria">Galería</a></li>
+    <li><a href="https://wa.me/50672028728" class="nav-cta">Pedir ya →</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div>
+    <div class="hero-tag">Escazú, Costa Rica · Envíos nacionales</div>
+    <h1 class="hero-title">
+      <span class="lg">Rinde</span>
+      <span class="lg-g">al máximo</span>
+      <span class="lg-o">cada rep</span>
+<span class="lg-o">CiroSport</span>
+    </h1>
+    <p class="hero-sub">CiroSport, Ropa deportiva, suplementos y tenis de alto rendimiento. Precio directo, calidad real.</p>
+    <div class="hero-btns">
+      <a href="#productos" class="btn-g">Ver productos <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+      <a href="https://wa.me/50672028728" class="btn-o">WhatsApp →</a>
+    </div>
+    <div class="hero-stats">
+      <div><span class="stn">7</span><span class="stl">Categorías</span></div>
+      <div><span class="stn">Escazu </span><span class="stl">Desde</span></div>
+      <div><span class="stn">Todo CR</span><span class="stl">Envíos</span></div>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="hero-frame">
+      <img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771965990/dc822db6d18892fe68d182003df68e05_16_n9vcgk.png" alt="CiroSport">
+      <div class="hero-badge">⚡ Nuevos modelos</div>
+      <div class="hero-corner"></div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="mq">
+  <div class="mtr">
+    <span class="mi">Camisetas Olímpicas ✦</span><span class="mi">Oversize ✦</span><span class="mi">Juegos Deportivos ✦</span><span class="mi">Creatina ✦</span><span class="mi">Proteína ✦</span><span class="mi">Tenis ✦</span><span class="mi">SINPE 7008-2741 ✦</span><span class="mi">Envíos CR ✦</span>
+    <span class="mi">Camisetas Olímpicas ✦</span><span class="mi">Oversize ✦</span><span class="mi">Juegos Deportivos ✦</span><span class="mi">Creatina ✦</span><span class="mi">Proteína ✦</span><span class="mi">Tenis ✦</span><span class="mi">SINPE 7008-2741 ✦</span><span class="mi">Envíos CR ✦</span>
+  </div>
+</div>
+
+<!-- CATEGORÍAS -->
+<section id="categorias">
+  <div class="slbl fu">Colecciones</div>
+  <h2 class="stit fu">Todo lo que<br>necesitás</h2>
+  <p class="ssub fu">Encontrá tu categoría y escribinos por WhatsApp para tallas y disponibilidad.</p>
+  <div class="cats fu">
+    <div class="cat" onclick="location.href='https://wa.me/50672028728?text=Hola!+Me+interesan+las+Camisetas+Ol%C3%impicas'">
+      <img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771965956/dc822db6d18892fe68d182003df68e05_12_nluswt.png" alt="Olímpicas">
+      <div class="cat-ov"></div><div class="cat-info"><div class="cat-name">Camisetas Olímpicas</div><div class="cat-sub">Desde ₡8.000</div></div>
+      <div class="cat-arr"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+    </div>
+    <div class="cat" onclick="location.href='https://wa.me/50672028728?text=Hola!+Me+interesan+las+Oversize'">
+      <img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771645776/Screenshot_20260103_144217_com_instagram_android_InstagramMainActivity_5_xsc59h.png" alt="Oversize">
+      <div class="cat-ov"></div><div class="cat-info"><div class="cat-name">Oversize</div><div class="cat-sub">₡12.000</div></div>
+      <div class="cat-arr"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+    </div>
+    <div class="cat" onclick="location.href='https://wa.me/50672028728?text=Hola!+Me+interesan+los+Juegos+Deportivos'">
+      <img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771646079/Photoroom-20250224_235848_pillqf.png" alt="Juegos Deportivos">
+      <div class="cat-ov"></div><div class="cat-info"><div class="cat-name">Juegos Deportivos</div><div class="cat-sub">₡20.000</div></div>
+      <div class="cat-arr"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+    </div>
+    <div class="cat" onclick="location.href='https://wa.me/50672028728?text=Hola!+Me+interesan+las+Camisetas+Deportivas'">
+      <img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771646007/Photoroom-20250301_223811_mpctyd.png" alt="Deportivas">
+      <div class="cat-ov"></div><div class="cat-info"><div class="cat-name">Camisetas Deportivas</div><div class="cat-sub">₡10.000</div></div>
+      <div class="cat-arr"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+    </div>
+    <div class="cat" onclick="location.href='https://wa.me/50672028728?text=Hola!+Me+interesan+los+Suplementos'">
+      <img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771646164/IMG-20250826-WA0008_ezryvm.png" alt="Suplementos">
+      <div class="cat-ov"></div><div class="cat-info"><div class="cat-name">Suplementos</div><div class="cat-sub">Proteína & Creatina</div></div>
+      <div class="cat-arr"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+    </div>
+    <div class="cat" onclick="location.href='https://wa.me/50672028728?text=Hola!+Me+interesan+los+Tenis'">
+      <img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771648158/IMG-20260212-WA0211_nwlbyj.jpg" alt="Tenis">
+      <div class="cat-ov"></div><div class="cat-info"><div class="cat-name">Tenis</div><div class="cat-sub">₡30.000</div></div>
+      <div class="cat-arr"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTOS -->
+<section id="productos" class="prod-sec">
+  <div class="slbl fu">Más vendidos</div>
+  <h2 class="stit fu">Productos<br>destacados</h2>
+  <div class="ptabs fu">
+    <button class="ptab active" onclick="ft(this,'todo')">Todo</button>
+    <button class="ptab" onclick="ft(this,'olimpica')">Olímpicas</button>
+    <button class="ptab" onclick="ft(this,'oversize')">Oversize</button>
+    <button class="ptab" onclick="ft(this,'juego')">Juegos</button>
+    <button class="ptab" onclick="ft(this,'deportiva')">Deportivas</button>
+    <button class="ptab" onclick="ft(this,'supps')">Suplementos</button>
+    <button class="ptab" onclick="ft(this,'tenis')">Tenis</button>
+  </div>
+  <div class="pgrid fu" id="pgrid">
+
+    <!-- OLÍMPICAS -->
+    <div class="pc" data-cat="olimpica"><div class="pimg"><img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771965990/dc822db6d18892fe68d182003df68e05_16_n9vcgk.png" alt=""><div class="pbdg">Popular</div></div><div class="pinf"><div class="pnm">Camiseta Olímpica</div><div class="pds">Tela técnica · Tallas S–XXL</div><div class="pbot"><div class="ppr">₡8.000<small>3×₡20.000 · 6×₡30.000</small></div><a class="bwa" href="https://wa.me/50672028728?text=Hola!+Me+interesa+la+Camiseta+Ol%C3%ADmpica" target="_blank"><svg width="16" height="16" viewBox="0 0 24 24" class="wi"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a></div></div></div>
+
+    <div class="pc" data-cat="olimpica"><div class="pimg"><img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771965955/dc822db6d18892fe68d182003df68e05_15_uwqohl.png" alt=""></div><div class="pinf"><div class="pnm">Camiseta Olímpica</div><div class="pds">Varios colores disponibles</div><div class="pbot"><div class="ppr">₡8.000<small>3×₡20. 000· 6×₡30.000</small></div><a class="bwa" href="https://wa.me/50672028728?text=Hola!+Me+interesa+la+Camiseta+Ol%C3%ADmpica" target="_blank"><svg width="16" height="16" viewBox="0 0 24 24" class="wi"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a></div></div></div>
+
+    <div class="pc" data-cat="olimpica"><div class="pimg"><img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771965867/IMG-20260224-WA0039_bwv62w.jpg" alt=""></div><div class="pinf"><div class="pnm">Camiseta Olímpica</div><div class="pds">Entrega inmediata · Escazú</div><div class="pbot"><div class="ppr">₡8.000<small>3×₡20.000 · 6×₡30.000</small></div><a class="bwa" href="https://wa.me/50672028728?text=Hola!+Me+interesa+la+Camiseta+Ol%C3%ADmpica" target="_blank"><svg width="16" height="16" viewBox="0 0 24 24" class="wi"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a></div></div></div>
+
+    <!-- OVERSIZE -->
+    <div class="pc" data-cat="oversize"><div class="pimg"><img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771645355/6362f18afa2e9fef922b0c43ea94f871_trka37.png" alt=""><div class="pbdg">Nuevo</div></div><div class="pinf"><div class="pnm">Camiseta Oversize</div><div class="pds">Corte relajado · Varios colores</div><div class="pbot"><div class="ppr">₡12.000<small>Tallas S–XL</small></div><a class="bwa" href="https://wa.me/50672028728?text=Hola!+Me+interesa+la+Oversize" target="_blank"><svg width="16" height="16" viewBox="0 0 24 24" class="wi"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a></div></div></div>
+
+    <div class="pc" data-cat="oversize"><div class="pimg"><img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771645514/Screenshot_20260103_144217_com_instagram_android_InstagramMainActivity_3_gnnl1q.png" alt=""></div><div class="pinf"><div class="pnm">Camiseta Oversize</div><div class="pds">Estilo urbano deportivo</div><div class="pbot"><div class="ppr">₡12.000<small>Tallas S–XL</small></div><a class="bwa" href="https://wa.me/50672028728?text=Hola!+Me+interesa+la+Oversize" target="_blank"><svg width="16" height="16" viewBox="0 0 24 24" class="wi"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a></div></div></div>
+
+    <!-- JUEGOS -->
+    <div class="pc" data-cat="juego"><div class="pimg"><img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771646079/Photoroom-20250224_235848_pillqf.png" alt=""><div class="pbdg">Más vendido</div></div><div class="pinf"><div class="pnm">Juego Deportivo</div><div class="pds">Short + Camiseta · Varios modelos</div><div class="pbot"><div class="ppr">₡20.000<small>Set completo</small></div><a class="bwa" href="https://wa.me/50672028728?text=Hola!+Me+interesa+el+Juego+Deportivo" target="_blank"><svg width="16" height="16" viewBox="0 0 24 24" class="wi"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a></div></div></div>
+
+    <div class="pc" data-cat="juego"><div class="pimg"><img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771646193/Photoroom-20250224_233715_elc9du.png" alt=""></div><div class="pinf"><div class="pnm">Juego Deportivo</div><div class="pds">Tela ligera y transpirable</div><div class="pbot"><div class="ppr">₡20.000<small>Set completo</small></div><a class="bwa" href="https://wa.me/50672028728?text=Hola!+Me+interesa+el+Juego+Deportivo" target="_blank"><svg width="16" height="16" viewBox="0 0 24 24" class="wi"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a></div></div></div>
+
+    <!-- DEPORTIVAS -->
+    <div class="pc" data-cat="deportiva"><div class="pimg"><img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771646007/Photoroom-20250301_223811_mpctyd.png" alt=""></div><div class="pinf"><div class="pnm">Camiseta Deportiva</div><div class="pds">Corte atlético · Varios colores</div><div class="pbot"><div class="ppr">₡10.000<small>Tallas S–XXL</small></div><a class="bwa" href="https://wa.me/50672028728?text=Hola!+Me+interesa+la+Camiseta+Deportiva" target="_blank"><svg width="16" height="16" viewBox="0 0 24 24" class="wi"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a></div></div></div>
+
+    <div class="pc" data-cat="deportiva"><div class="pimg"><img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771645955/Photoroom-20250301_223509_f8pykj.png" alt=""></div><div class="pinf"><div class="pnm">Camiseta Deportiva</div><div class="pds">Secado rápido · Alto rendimiento</div><div class="pbot"><div class="ppr">₡10.000<small>Tallas S–XXL</small></div><a class="bwa" href="https://wa.me/50672028728?text=Hola!+Me+interesa+la+Camiseta+Deportiva" target="_blank"><svg width="16" height="16" viewBox="0 0 24 24" class="wi"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a></div></div></div>
+
+    <!-- SUPLEMENTOS -->
+    <div class="pc" data-cat="supps"><div class="pimg"><img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771646164/IMG-20250826-WA0008_ezryvm.png" alt=""><div class="pbdg">Más vendido</div></div><div class="pinf"><div class="pnm">Proteína Whey</div><div class="pds">Alta absorción · Varios sabores</div><div class="pbot"><div class="ppr">₡50.000<small>Consultar presentación</small></div><a class="bwa" href="https://wa.me/50672028728?text=Hola!+Me+interesa+la+Prote%C3%ADna" target="_blank"><svg width="16" height="16" viewBox="0 0 24 24" class="wi"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a></div></div></div>
+
+    <div class="pc" data-cat="supps"><div class="pimg"><img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771645882/IMG_20250531_150610_a8hlye.png" alt=""></div><div class="pinf"><div class="pnm">Creatina Monohidrato</div><div class="pds">Pura · Sin aditivos · Mayor fuerza</div><div class="pbot"><div class="ppr">₡17.500<small>Consultar presentación</small></div><a class="bwa" href="https://wa.me/50672028728?text=Hola!+Me+interesa+la+Creatina" target="_blank"><svg width="16" height="16" viewBox="0 0 24 24" class="wi"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a></div></div></div>
+
+    <!-- TENIS -->
+    <div class="pc" data-cat="tenis"><div class="pimg"><img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771648158/IMG-20260212-WA0211_nwlbyj.jpg" alt=""><div class="pbdg">Nuevo</div></div><div class="pinf"><div class="pnm">Tenis Deportivos</div><div class="pds">Suela antideslizante · Tallas 36–44</div><div class="pbot"><div class="ppr">₡30.000<small>Varios modelos</small></div><a class="bwa" href="https://wa.me/50672028728?text=Hola!+Me+interesan+los+Tenis" target="_blank"><svg width="16" height="16" viewBox="0 0 24 24" class="wi"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a></div></div></div>
+
+    <div class="pc" data-cat="tenis"><div class="pimg"><img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771648154/IMG-20260212-WA0214_huokan.jpg" alt=""></div><div class="pinf"><div class="pnm">Tenis Deportivos</div><div class="pds">Livianos · Estilo moderno</div><div class="pbot"><div class="ppr">₡25.000<small>Varios modelos</small></div><a class="bwa" href="https://wa.me/50672028728?text=Hola!+Me+interesan+los+Tenis" target="_blank"><svg width="16" height="16" viewBox="0 0 24 24" class="wi"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a></div></div></div>
+
+  </div>
+</section>
+
+<!-- SUPLEMENTOS HIGHLIGHT -->
+<section id="suplementos" class="sup-sec">
+  <div class="sup-lay">
+    <div class="sg fu">
+      <div class="sb"><img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771646164/IMG-20250826-WA0008_ezryvm.png" alt="Proteína"></div>
+      <div class="sb"><img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771646285/IMG-20250620-WA0021_fy6e0u.png" alt="Proteína"></div>
+      <div class="sb"><img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771645882/IMG_20250531_150610_a8hlye.png" alt="Creatina"></div>
+      <div class="sb"><img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771646321/IMG_20250604_154551_leznbs.png" alt="Creatina"></div>
+    </div>
+    <div class="fu">
+      <div class="slbl">Suplementos</div>
+      <h2 class="stit">Ciencia en<br>cada scoop</h2>
+      <p class="ssub">Proteína y creatina de calidad, sin rellenos. Precio directo, resultados reales.</p>
+      <ul class="fl">
+        <li>Proteína Whey — alta absorción post-entreno · ₡50.000</li>
+        <li>Creatina Monohidrato pura — fuerza y recuperación · ₡17.500</li>
+        <li>Pago SINPE Móvil 7008-2741 · Inmediato y seguro</li>
+        <li>Envíos a todo Costa Rica · Retiro en Escazú Centro</li>
+      </ul>
+      <a href="https://wa.me/50672028728?text=Hola!+Me+interesan+los+suplementos+de+CiroSport" class="btn-g" target="_blank">
+        Consultar suplementos <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- GALERÍA -->
+<section id="galeria" class="gal-sec">
+  <div class="slbl fu">Galería</div>
+  <h2 class="stit fu">Mirá nuestros<br>productos</h2>
+  <div class="cw fu">
+    <div class="ctr" id="ctr">
+      <div class="csl"><img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771965990/dc822db6d18892fe68d182003df68e05_16_n9vcgk.png" alt=""></div>
+      <div class="csl"><img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771965954/dc822db6d18892fe68d182003df68e05_13_g7m9pa.png" alt=""></div>
+      <div class="csl"><img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771645355/6362f18afa2e9fef922b0c43ea94f871_trka37.png" alt=""></div>
+      <div class="csl"><img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771646079/Photoroom-20250224_235848_pillqf.png" alt=""></div>
+      <div class="csl"><img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771646193/Photoroom-20250224_233715_elc9du.png" alt=""></div>
+      <div class="csl"><img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771646007/Photoroom-20250301_223811_mpctyd.png" alt=""></div>
+      <div class="csl"><img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771646164/IMG-20250826-WA0008_ezryvm.png" alt=""></div>
+      <div class="csl"><img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771648158/IMG-20260212-WA0211_nwlbyj.jpg" alt=""></div>
+      <div class="csl"><img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771648154/IMG-20260212-WA0214_huokan.jpg" alt=""></div>
+      <div class="csl"><img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771965863/IMG-20260224-WA0040_s6dbw3.jpg" alt=""></div>
+      <div class="csl"><img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771646052/Photoroom-20250225_000044_rakgft.png" alt=""></div>
+      <div class="csl"><img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771648138/IMG-20260212-WA0209_ihassa.jpg" alt=""></div>
+    </div>
+  </div>
+  <div class="cctrl">
+    <button class="cbtn" onclick="mc(-1)"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg></button>
+    <button class="cbtn" onclick="mc(1)"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <div class="slbl">Contacto</div>
+  <h2 class="stit">¿Listo para<br>entrenar mejor?</h2>
+  <p>Escribinos por WhatsApp, te asesoramos en tallas y disponibilidad. SINPE · Envíos CR · Retiro en Escazú.</p>
+  <div class="cta-btns">
+    <a href="https://wa.me/50672028728" class="btn-dk" target="_blank">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      WhatsApp +506 7202-8728
+    </a>
+    <a href="https://waze.com/ul?q=Escaz%C3%BA+Centro+Costa+Rica" class="btn-dk" target="_blank">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="10" r="3"/><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
+      Ver en Waze
+    </a>
+  </div>
+</section>
+
+<!-- SOCIAL BAR -->
+<div class="sbar">
+  <div class="slinks">
+    <a class="slnk" href="https://www.instagram.com/tshir_t31?igsh=ZmdxajZqbWQ1b2Vq" target="_blank">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+    </a>
+    <a class="slnk" href="https://wa.me/50672028728" target="_blank">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </a>
+    <a class="slnk" href="mailto:paul.angulo2015@gmail.com">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+    </a>
+  </div>
+  <div class="sinf">
+    <strong>SINPE Móvil: 7008-2741</strong><br>
+    Escazú Centro · @tshir_t31
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <a href="#"><img src="https://res.cloudinary.com/dlz6uc574/image/upload/v1771649387/Photoroom-20251123_215209030_blbzzk.png" alt="CiroSport" class="flogo"></a>
+  <p class="ftxt">© 2025 CiroSport · Escazú, Costa Rica</p>
+  <div class="flinks">
+    <a href="#categorias">Productos</a>
+    <a href="https://wa.me/50672028728">Contacto</a>
+    <a href="https://www.instagram.com/tshir_t31?igsh=ZmdxajZqbWQ1b2Vq">Instagram</a>
+  </div>
+</footer>
+
+<!-- FLOATING WA -->
+<a class="waf" href="https://wa.me/50672028728" target="_blank">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<script>
+// fade up
+const obs=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('vis')}),{threshold:.08});
+document.querySelectorAll('.fu').forEach(el=>obs.observe(el));
+
+// tabs
+function ft(btn,cat){
+  document.querySelectorAll('.ptab').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.pc').forEach(c=>{c.style.display=(cat==='todo'||c.dataset.cat===cat)?'':'none'});
+}
+
+// carousel
+let cp=0;
+const tr=document.getElementById('ctr');
+function mc(d){
+  const sl=tr.querySelectorAll('.csl');
+  const vis=window.innerWidth<=768?1:3;
+  cp=Math.max(0,Math.min(cp+d,sl.length-vis));
+  tr.style.transform=`translateX(-${cp*(sl[0].offsetWidth+3)}px)`;
+}
+
+// smooth scroll
+document.querySelectorAll('a[href^="#"]').forEach(a=>{
+  a.addEventListener('click',e=>{
+    const t=document.querySelector(a.getAttribute('href'));
+    if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth'})}
+  });
+});
+</script>
+</body>
+</html>
